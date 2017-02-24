@@ -6,7 +6,7 @@
     font-weight: normal;
     color: black; }
     .navbar-fixed-top li a:hover, .navbar-fixed-top li a:focus {
-      color: black; }
+      color: #d2d2d2; }
   .navbar-fixed-top .logo {
     margin-top: -8px;
     max-height: 40px; }
@@ -28,7 +28,7 @@
         vertical-align: middle; }
         .navbar-fixed-top li a:hover, .navbar-fixed-top li a:focus {
           background-color: transparent;
-          color: black; }
+          color: #d2d2d2; }
     .navbar-fixed-top .logo {
       max-height: none;
       margin-top: -15px; }
