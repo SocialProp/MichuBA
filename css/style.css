@@ -39,3 +39,24 @@
 
 .intro img {
   margin-top: 60px; }
+
+.manifiesto {
+  margin-top: 120px; }
+
+.footer {
+  margin-top: 80px;
+  background-color: black; }
+  .footer ul {
+    font-family: Avenir;
+    font-weight: normal;
+    color: #FBFBFB;
+    list-style-type: none; }
+    .footer ul li {
+      font-family: Avenir;
+      font-weight: normal;
+      color: #FBFBFB; }
+      .footer ul li a {
+        font-family: Avenir;
+        font-weight: normal; }
+        .footer ul li a:hover {
+          text-decoration: none; }
