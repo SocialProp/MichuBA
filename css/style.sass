@@ -13,14 +13,24 @@ $titulo : #00B9F2
       &:hover, &:focus
         color: #d2d2d2
   .logo
-    margin-top: -8px
-    max-height: 40px
+    @media only screen and (max-width: 468px)
+      margin-top: -8px
+      max-height: 40px
+    @media only screen and (min-width: 768px)
+      max-height: 32px
+      margin-top: 6px
+    @media only screen and (min-width: 1024px)
+      max-height: none
+      margin-top: -15px
+
   .navbar-header
     button
       color: black
       &:hover, &:focus
         color: black
-@media only screen and (min-width: 480px)
+
+
+@media only screen and (min-width: 768px)
   .navbar-fixed-top
     background-color: rgba($navbar , 0.9)
     height: 80px
@@ -34,9 +44,7 @@ $titulo : #00B9F2
         &:hover, &:focus
           background-color: transparent
           color: #d2d2d2
-    .logo
-      max-height: none
-      margin-top: -15px
+          
     .navbar-header
       button
         color: white
