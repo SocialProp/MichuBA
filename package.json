@@ -12,7 +12,7 @@
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.0.3",
     "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^2.0.1",
-    "rename": "^1.0.4"
+    "rename": "^1.0.4",
+    "uglify-js": "^2.7.5"
   }
 }
