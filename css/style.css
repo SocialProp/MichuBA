@@ -43,6 +43,19 @@
 .manifiesto {
   margin-top: 120px; }
 
+.materiales {
+  margin-top: 150px; }
+  .materiales h3 {
+    font-family: Avenir;
+    line-height: 18px;
+    font-size: 23px; }
+  .materiales p {
+    font-family: Avenir;
+    line-height: 18px;
+    font-size: 14px; }
+  .materiales hr {
+    border-color: black; }
+
 .footer {
   margin-top: 80px;
   background-color: black; }
@@ -54,9 +67,9 @@
     .footer ul li {
       font-family: Avenir;
       font-weight: normal;
-      color: #FBFBFB; }
+      color: #FBFBFB;
+      line-height: 18px;
+      font-size: 13px; }
       .footer ul li a {
         font-family: Avenir;
         font-weight: normal; }
-        .footer ul li a:hover {
-          text-decoration: none; }
