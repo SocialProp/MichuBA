@@ -1,0 +1,41 @@
+/* Color /* */
+.navbar-fixed-top {
+  background-color: rgba(255, 255, 255, 0.9); }
+  .navbar-fixed-top li a {
+    font-family: Avenir;
+    font-weight: normal;
+    color: black; }
+    .navbar-fixed-top li a:hover, .navbar-fixed-top li a:focus {
+      color: black; }
+  .navbar-fixed-top .logo {
+    margin-top: -8px;
+    max-height: 40px; }
+  .navbar-fixed-top .navbar-header button {
+    color: black; }
+    .navbar-fixed-top .navbar-header button:hover, .navbar-fixed-top .navbar-header button:focus {
+      color: black; }
+
+@media only screen and (min-width: 480px) {
+  .navbar-fixed-top {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 80px; }
+    .navbar-fixed-top li {
+      padding-top: 12px; }
+      .navbar-fixed-top li a {
+        line-height: 18px;
+        font-size: 13px;
+        color: black;
+        vertical-align: middle; }
+        .navbar-fixed-top li a:hover, .navbar-fixed-top li a:focus {
+          background-color: transparent;
+          color: black; }
+    .navbar-fixed-top .logo {
+      max-height: none;
+      margin-top: -15px; }
+    .navbar-fixed-top .navbar-header button {
+      color: white; }
+      .navbar-fixed-top .navbar-header button:hover {
+        color: black; } }
+
+.intro img {
+  margin-top: 60px; }

@@ -1,0 +1,47 @@
+/* Color /*
+$navbar : rgba(255, 255, 255, 0.58)
+$titulo : #00B9F2
+
+
+.navbar-fixed-top
+  background-color: rgba(255, 255, 255, 0.9)
+  li
+    a
+      font-family: Avenir
+      font-weight: normal
+      color: black
+      &:hover, &:focus
+        color: black
+  .logo
+    margin-top: -8px
+    max-height: 40px
+  .navbar-header
+    button
+      color: black
+      &:hover, &:focus
+        color: black
+@media only screen and (min-width: 480px)
+  .navbar-fixed-top
+    background-color: rgba($navbar , 0.9)
+    height: 80px
+    li
+      padding-top: 12px
+      a
+        line-height: 18px
+        font-size: 13px
+        color: black
+        vertical-align: middle
+        &:hover, &:focus
+          background-color: transparent
+          color: black
+    .logo
+      max-height: none
+      margin-top: -15px
+    .navbar-header
+      button
+        color: white
+        &:hover
+          color: black
+.intro
+  img
+    margin-top: 60px
