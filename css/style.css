@@ -169,3 +169,10 @@ h1 {
     line-height: 30px;
     top: 14em;
     left: 4em; } }
+
+.seccionamor {
+  overflow-x: hidden;
+  font-family: Raleway, sans-serif;
+  margin-top: 120px; }
+  .seccionamor img {
+    width: 100%; }
