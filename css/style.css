@@ -120,32 +120,60 @@ h1 {
 
 .amor {
   margin-top: 25px; }
+  .amor h2 {
+    position: absolute;
+    padding: 100px;
+    margin-top: -200px;
+    font-size: 24px; }
+    @media only screen and (min-width: 1024px) {
+      .amor h2 {
+        position: absolute;
+        padding: 0px;
+        margin-top: 0px;
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        line-height: 30px;
+        top: 7em;
+        left: 7em; } }
+
+.alma h2 {
+  padding: 70px;
+  position: absolute;
+  font-size: 24px; }
   @media only screen and (min-width: 1024px) {
-    .amor h2 {
+    .alma h2 {
+      padding: 0px;
       position: absolute;
       font-size: 17px;
       font-weight: bold;
       letter-spacing: 3px;
       line-height: 30px;
-      top: 7em;
+      top: 12em;
       left: 7em; } }
 
-@media only screen and (min-width: 1024px) {
-  .alma h2 {
-    position: absolute;
-    font-size: 17px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    line-height: 30px;
-    top: 12em;
-    left: 7em; } }
+.alma img {
+  margin-bottom: 50px; }
+  @media only screen and (min-width: 1024px) {
+    .alma img {
+      margin-bottom: 0px; } }
 
-@media only screen and (min-width: 1024px) {
-  .slowliving h2 {
-    position: absolute;
-    font-size: 17px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    line-height: 30px;
-    top: 14em;
-    left: 4em; } }
+.slowliving h2 {
+  position: absolute;
+  padding-top: 40px;
+  padding-left: 10px;
+  font-size: 24px;
+  margin-top: -270px; }
+  @media only screen and (min-width: 1024px) {
+    .slowliving h2 {
+      padding: 0px;
+      padding-top: 0px;
+      padding-left: 0px;
+      margin-top: 0px;
+      position: absolute;
+      font-size: 17px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      line-height: 30px;
+      top: 14em;
+      left: 4em; } }
