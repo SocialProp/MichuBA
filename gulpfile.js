@@ -14,14 +14,14 @@ gulp.task('uglify', function(){
 });
 
 gulp.task('sass', function(){
-	return gulp.src('./css/style.sass')
+	return gulp.src(['./css/style.sass','./css/subseccion.sass'])
 	.pipe(sass().on('error', sass.logError))
 	.pipe(gulp.dest('./css/'))
 	.pipe(browserSync.stream());
 });
 
 gulp.task('minify-css', function(){
-	return gulp.src('./css/style.css')
+	return gulp.src(['./css/style.css','./css/subseccion.css'])
 	.pipe(cleanCss({compability: 'ie8'}))
 	.pipe(rename({ suffix: '.min'}))
 	.pipe(gulp.dest('./css/'))
@@ -31,6 +31,8 @@ gulp.task('watch', function(){
 	gulp.watch('./js/index.js', ['uglify']),
 	gulp.watch('./css/style.sass', ['sass']);
 	gulp.watch('./css/style.css', ['minify-css']);
+	gulp.watch('./css/subseccion.sass',['sass']);
+	gulp.watch('./css/subseccion.css',['minify-css']);
 });
 
 gulp.task('serve', function(){
