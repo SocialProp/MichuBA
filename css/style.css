@@ -85,6 +85,8 @@ h1 {
 
 .materiales {
   margin-top: 150px; }
+  .materiales img:hover {
+    opacity: 0.8; }
   .materiales h3 {
     font-family: Avenir;
     line-height: 18px;
@@ -116,6 +118,8 @@ h1 {
 
 .filosofia {
   margin-top: 90px; }
+  .filosofia img:hover {
+    opacity: 0.8; }
   .filosofia a {
     color: black; }
     .filosofia a:hover {
@@ -123,37 +127,28 @@ h1 {
 
 .amor {
   margin-top: 25px; }
-  .amor h2 {
-    position: absolute;
-    padding: 100px;
-    margin-top: -200px;
-    font-size: 24px; }
-    @media only screen and (min-width: 1024px) {
-      .amor h2 {
-        position: absolute;
-        padding: 0px;
-        margin-top: 0px;
-        font-size: 17px;
-        font-weight: bold;
-        letter-spacing: 3px;
-        line-height: 30px;
-        top: 7em;
-        left: 7em; } }
-
-.alma h2 {
-  padding: 70px;
-  position: absolute;
-  font-size: 24px; }
   @media only screen and (min-width: 1024px) {
-    .alma h2 {
-      padding: 0px;
+    .amor h2 {
       position: absolute;
+      padding: 0px;
+      margin-top: 0px;
       font-size: 17px;
       font-weight: bold;
       letter-spacing: 3px;
       line-height: 30px;
-      top: 12em;
+      top: 7em;
       left: 7em; } }
+
+@media only screen and (min-width: 1024px) {
+  .alma h2 {
+    padding: 0px;
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 30px;
+    top: 12em;
+    left: 7em; } }
 
 .alma img {
   margin-bottom: 50px; }
@@ -161,22 +156,16 @@ h1 {
     .alma img {
       margin-bottom: 0px; } }
 
-.slowliving h2 {
-  position: absolute;
-  padding-top: 40px;
-  padding-left: 10px;
-  font-size: 24px;
-  margin-top: -270px; }
-  @media only screen and (min-width: 1024px) {
-    .slowliving h2 {
-      padding: 0px;
-      padding-top: 0px;
-      padding-left: 0px;
-      margin-top: 0px;
-      position: absolute;
-      font-size: 17px;
-      font-weight: bold;
-      letter-spacing: 3px;
-      line-height: 30px;
-      top: 14em;
-      left: 4em; } }
+@media only screen and (min-width: 1024px) {
+  .slowliving h2 {
+    padding: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 30px;
+    top: 14em;
+    left: 4em; } }
