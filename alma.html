@@ -10,6 +10,7 @@
     <!-- Slick CSS -->
 
     <!-- Css Min -->
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/style.min.css">
     <link rel="stylesheet" href="./css/subseccion.min.css">
     <link href="https://fonts.googleapis.com/css?family=GFS+Didot" rel="stylesheet">
@@ -22,6 +23,7 @@
     <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <link rel="icon" href="./img/michuBA.ico" type="image/gif" sizes="16x16">
     <script src="./js/index.min.js" charset="utf-8"></script>
+    <script src="./js/wow.min.js" charset="utf-8"></script>
 
   </head>
   <body>
@@ -62,15 +64,15 @@
     </nav>
     <section class="container content-section filosofia">
       <div class="row">
-      <div class="col-md-offset-6 col-md-6 almatexto1">
+      <div class="col-md-offset-6 col-md-6 almatexto1 wow fadeIn">
         <p>Michu nace en honor a un alma hermosa.<br> Ella es la inspiración de nuestras mentes <br>y la fuerza de nuestros cuerpos.</p>
         <p>Sentimos que estamos en esta vida para dar amor,<br>conectarnos con nuestro verdadero ser, y compartir.</p>
         <p>Nuestra forma de expresarlo es a través de nuestro <br>trabajo diario, tanto interno como externo,<br> los productos que hacemos.<br> Y por consiguiente, en nuestra marca.</p>
       </div>
       <div class="row">
         <div class=" col-md-offset-4 col-md-8">
-          <img class="img-responsive" src="img/51.jpg">
-          <div class="almatexto2">
+          <img class="img-responsive fadeInUp animated" src="img/51.jpg">
+          <div class="almatexto2 wow fadeIn">
             <p>Así como a nosotras nos inspira Michu,<br> buscamos conectarnos y <br>ser inspiración para otras mujeres, <br> otras almas.</p>
             <p>Vamos a la esencia. Vestimos el alma.</p>
             <p>Por eso...</p>
@@ -78,12 +80,15 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-10 col-xs-offset-1 col-md-offset-4 col-md-4">
+        <div class="col-xs-10 col-xs-offset-1 col-md-offset-4 col-md-4 wow fadeIn">
         <h1>ALMA PRIMERO</h1>
         <h1 id="ropa">ROPA DESPUÉS</h1>
         </div>
       </div>
       </div>
     </section>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
