@@ -124,6 +124,9 @@ h1 {
     color: black; }
     .filosofia a:hover {
       color: #545454; }
+  .filosofia h1 {
+    font-family: 'GFS Didot', serif;
+    font-size: 36px; }
 
 .amor {
   margin-top: 25px; }
