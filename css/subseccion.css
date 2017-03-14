@@ -3,11 +3,9 @@
   src: url("../fonts/didot.otf"); }
 
 .almatexto1 {
-  font-family: Didot;
   text-align: center; }
   @media only screen and (min-width: 1024px) {
     .almatexto1 p {
-      font-family: Didot;
       padding-bottom: 10px;
       font-weight: lighter;
       font-size: 16px;
@@ -16,7 +14,6 @@
       line-height: 30px; } }
 
 .almatexto2 {
-  font-family: Didot;
   text-align: center; }
   @media only screen and (min-width: 1024px) {
     .almatexto2 {
@@ -24,7 +21,6 @@
       top: 200px;
       left: -270px; }
       .almatexto2 p {
-        font-family: Didot;
         padding-bottom: 10px;
         font-weight: lighter;
         font-size: 16px;
@@ -32,11 +28,8 @@
         letter-spacing: 3px;
         line-height: 30px; } }
 
-.filosofia {
-  font-family: Didot; }
-  .filosofia h1 {
-    font-family: Didot;
-    font-style: italic; }
+.filosofia h1 {
+  font-style: italic; }
 
 #ropa {
   font-family: Didot;
