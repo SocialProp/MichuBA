@@ -91,6 +91,9 @@ h1 {
     font-family: Avenir;
     line-height: 18px;
     font-size: 23px; }
+    @media only screen and (min-width: 768px) {
+      .materiales h3 {
+        font-size: 21px; } }
   .materiales p {
     font-family: Avenir;
     line-height: 18px;
