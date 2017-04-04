@@ -268,3 +268,11 @@ h1 {
         padding-top: 180px;
         z-index: 1;
         margin-left: 65px; } }
+
+.contact {
+  overflow-x: hidden; }
+  .contact header {
+    font-size: 30px; }
+    @media only screen and (min-width: 768px) {
+      .contact header {
+        font-size: 2.3em; } }
