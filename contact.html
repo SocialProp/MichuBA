@@ -22,6 +22,7 @@
     <link rel="icon" href="./img/michuBA.ico" type="image/gif" sizes="16x16">
     <script src="./js/index.min.js" charset="utf-8"></script>
     <script src="./js/wow.min.js" charset="utf-8"></script>
+    <script src="./js/contact_me.js" charset="utf-8"></script>
 
   </head>
   <body>
@@ -73,15 +74,17 @@
       </div>
       <div class="row">
         <div class="col-md-offset-4 col-md-4">
-          <form id="form" class="topBefore">
-      		  <input id="name" class="forminput" type="text" placeholder="NAME">
-      		  <input id="email" class="forminput" type="text" placeholder="E-MAIL">
-      		  <textarea id="message" class="textarea" type="text" placeholder="MESSAGE"></textarea>
+          <form name="sentMessage" id="contactForm" novalidate>
+      		  <input id="name" class="forminput" type="text" placeholder="NAME" required data-validation-required-message="Por favor ingresa tu mail.">
+            <p class="help-block text-danger"></p>
+      		  <input id="email" class="forminput" type="text" placeholder="E-MAIL" required data-validation-required-message="Por favor escribi tu mail.">
+      		  <textarea id="message" class="textarea" type="text" placeholder="MESSAGE" required data-validation-required-message="Por favor, ingresa un mensaje."></textarea>
+            <div id="success"></div>
             <input id="submit" type="submit" value="SEND!">
           </form>
         </div>
       </div>
-    </div>  
+    </div>
   </div>
   </body>
 </html>
